@@ -4,3 +4,6 @@
 [submodule "02-playground-functions"]
 	path = 02-playground-functions
 	url = https://github.com/Lucas-L-S-Haine/02-playground-functions
+[submodule "03-pixel-art"]
+	path = 03-pixel-art
+	url = https://github.com/Lucas-L-S-Haine/03-pixel-art

@@ -10,3 +10,6 @@
 [submodule "04-todo-list"]
 	path = 04-todo-list
 	url = https://github.com/Lucas-L-S-Haine/04-todo-list
+[submodule "05-trybewarts"]
+	path = 05-trybewarts
+	url = https://github.com/Lucas-L-S-Haine/05-trybewarts

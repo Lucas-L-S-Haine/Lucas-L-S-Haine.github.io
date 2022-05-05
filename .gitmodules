@@ -7,3 +7,6 @@
 [submodule "03-pixel-art"]
 	path = 03-pixel-art
 	url = https://github.com/Lucas-L-S-Haine/03-pixel-art
+[submodule "04-todo-list"]
+	path = 04-todo-list
+	url = https://github.com/Lucas-L-S-Haine/04-todo-list

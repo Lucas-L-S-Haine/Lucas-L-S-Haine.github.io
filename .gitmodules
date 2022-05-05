@@ -13,3 +13,6 @@
 [submodule "05-trybewarts"]
 	path = 05-trybewarts
 	url = https://github.com/Lucas-L-S-Haine/05-trybewarts
+[submodule "06-js-unit-tests"]
+	path = 06-js-unit-tests
+	url = https://github.com/Lucas-L-S-Haine/06-js-unit-tests

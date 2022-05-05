@@ -16,3 +16,6 @@
 [submodule "06-js-unit-tests"]
 	path = 06-js-unit-tests
 	url = https://github.com/Lucas-L-S-Haine/06-js-unit-tests
+[submodule "07-zoo-functions"]
+	path = 07-zoo-functions
+	url = https://github.com/Lucas-L-S-Haine/07-zoo-functions

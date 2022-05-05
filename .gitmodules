@@ -25,3 +25,6 @@
 [submodule "09-jest"]
 	path = 09-jest
 	url = https://github.com/Lucas-L-S-Haine/09-jest
+[submodule "10-movie-cards-library"]
+	path = 10-movie-cards-library
+	url = https://github.com/Lucas-L-S-Haine/10-movie-cards-library

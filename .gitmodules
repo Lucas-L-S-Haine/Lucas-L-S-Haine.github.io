@@ -22,3 +22,6 @@
 [submodule "08-shopping-cart"]
 	path = 08-shopping-cart
 	url = https://github.com/Lucas-L-S-Haine/08-shopping-cart
+[submodule "09-jest"]
+	path = 09-jest
+	url = https://github.com/Lucas-L-S-Haine/09-jest

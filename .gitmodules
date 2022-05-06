@@ -28,3 +28,6 @@
 [submodule "10-movie-cards-library"]
 	path = 10-movie-cards-library
 	url = https://github.com/Lucas-L-S-Haine/10-movie-cards-library
+[submodule "11-movie-cards-library-stateful"]
+	path = 11-movie-cards-library-stateful
+	url = https://github.com/Lucas-L-S-Haine/11-movie-cards-library-stateful

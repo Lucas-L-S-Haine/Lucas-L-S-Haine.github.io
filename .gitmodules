@@ -37,3 +37,6 @@
 [submodule "13-frontend-online-store"]
 	path = 13-frontend-online-store
 	url = https://github.com/Lucas-L-S-Haine/13-frontend-online-store
+[submodule "14-trybewallet"]
+	path = 14-trybewallet
+	url = https://github.com/Lucas-L-S-Haine/14-trybewallet

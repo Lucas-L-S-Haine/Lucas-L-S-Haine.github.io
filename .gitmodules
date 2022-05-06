@@ -40,3 +40,6 @@
 [submodule "14-trybewallet"]
 	path = 14-trybewallet
 	url = https://github.com/Lucas-L-S-Haine/14-trybewallet
+[submodule "15-jogo-de-trivia"]
+	path = 15-jogo-de-trivia
+	url = https://github.com/Lucas-L-S-Haine/15-jogo-de-trivia

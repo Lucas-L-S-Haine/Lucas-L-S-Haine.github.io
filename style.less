@@ -1,30 +1,28 @@
+@fg: #c1c1c1;
+@bright_fg: #f0f0f0;
+@bg: #1e1e1e;
+@color: {
+  color: @fg;
+  background-color: @bg;
+};
+
 * {
   margin: 0 1em;
 }
 
 body {
   display: grid;
-  background-color: #1e1e1e;
+  @color();
 }
 
-#header {
-  grid-row: 1;
+header {
+  @color();
   grid-column: 1 / 6;
-  color: #c1c1c1;
-  background-color: #1e1e1e;
   display: flex;
   justify-content: center;
-  margin: 2em;
+  margin: 1em;
   padding: 1em;
-}
-
-#main {
-  grid-row: 2;
-  grid-column: 2 / 5;
-  color: #c1c1c1;
-  background-color: #1e1e1e;
-  margin: 2em;
-  padding: 1em;
+  font-size: 2em;
 }
 
 #empty-component {
@@ -32,25 +30,19 @@ body {
   grid-column: 5 / 6;
 }
 
-#titlebar {
-  display: flex;
-  justify-content: center;
-  font-size: 2em;
-}
-
 nav#navigation {
   display: flex;
   flex-direction: column;
 
   a {
-    color: #c1c1c1;
+    color: @fg;
     padding: .15em;
     margin: 0;
     text-decoration: none;
   }
 
   a:hover {
-    color: #f0f0f0;
+    color: @bright_fg;
   }
 }
 
@@ -59,16 +51,12 @@ nav.nav-bar {
   justify-content: center;
 
   a {
-    color: #c1c1c1;
+    color: @fg;
     padding: 1em;
     text-decoration: none;
   }
 
   a:hover {
-    color: #f0f0f0;
+    color: @bright_fg;
   }
-}
-
-p {
-  color: #c1c1c1;
 }

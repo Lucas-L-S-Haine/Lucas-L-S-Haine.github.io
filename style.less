@@ -1,9 +1,21 @@
 @fg: #c1c1c1;
 @bright_fg: #f0f0f0;
 @bg: #1e1e1e;
+
 @color: {
   color: @fg;
   background-color: @bg;
+}
+
+@nav_link: {
+  a {
+    color: @fg;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: @bright_fg;
+  }
 }
 
 * {
@@ -33,30 +45,20 @@ header {
 nav#navigation {
   display: flex;
   flex-direction: column;
+  @nav_link();
 
   a {
-    color: @fg;
     padding: .15em;
     margin: 0;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: @bright_fg;
   }
 }
 
 nav.nav-bar {
   display: flex;
   justify-content: center;
+  @nav_link();
 
   a {
-    color: @fg;
     padding: 1em;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: @bright_fg;
   }
 }

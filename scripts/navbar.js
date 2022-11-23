@@ -14,6 +14,7 @@ projects.innerText = "Projects";
 about.innerText = "About Me";
 contact.innerText = "Contact Me";
 
+bar.className = "nav-bar";
 bar.appendChild(home);
 bar.appendChild(projects);
 bar.appendChild(about);
